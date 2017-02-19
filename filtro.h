@@ -1,0 +1,17 @@
+/*
+ * lowpass.h
+ *
+ */
+
+/*
+*/
+
+
+#define LOWPASS_TAP_NUM1 71
+#define BANDPASS_TAP_NUM2 71
+#define BANDPASS_TAP_NUM3 71
+#define BANDPASS_TAP_NUM4 71
+#define BANDPASS_TAP_NUM5 71
+#define BANDPASS_TAP_NUM6 71
+#define BANDPASS_TAP_NUM7 71
+#define BANDPASS_TAP_NUM8 71
