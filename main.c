@@ -138,7 +138,7 @@ int main(void)
 			y[i] += (int) (coefs[6] * fir_q31_get(&filtro7))  / 10;
 			y[i] += (int) (coefs[7] * fir_q31_get(&filtro8))  / 10;
 
-			
+			y[i] = y[i] * 2;
 
 			if(y[i]>0x3FF) y[i] = 0x3FF;   // verifica que el valor no supere el umbral
 			else if(y[i]<0) y[i] = 0;
